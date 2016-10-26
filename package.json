@@ -1,5 +1,5 @@
 {
-  "name": "language-gfm",
+  "name": "language-markdown-enhanced",
   "version": "0.0.1",
   "description": "A fork of language-gfm to support highlighting for Math and Code Chunks.",
   "repository": "https://github.com/shd101wyy/language-markdown-enhanced",

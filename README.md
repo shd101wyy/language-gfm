@@ -1,6 +1,16 @@
-# GitHub flavored Markdown package
-[![OS X Build Status](https://travis-ci.org/atom/language-gfm.svg?branch=master)](https://travis-ci.org/atom/language-gfm) [![Windows Build Status](https://ci.appveyor.com/api/projects/status/rpub8qjyd8lt7wai/branch/master?svg=true)](https://ci.appveyor.com/project/Atom/language-gfm/branch/master) [![Dependency Status](https://david-dm.org/atom/language-gfm.svg)](https://david-dm.org/atom/language-gfm)
+# Language Markdown Enhanced  
+This package is just a fork of [language-gfm](https://github.com/atom/language-gfm) but extended to support some features of [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).
 
-Adds syntax highlighting and snippets to [GitHub flavored Markdown](https://help.github.com/articles/github-flavored-markdown) files in Atom.
+## Installation  
+* search `language-markdown-enhanced` in package manager and install it.  
+* Disable `language-gfm`
 
-Contributions are greatly appreciated. Please fork this repository and open a pull request to add snippets, make grammar tweaks, etc.
+## Additional Features   
+1. **Code Chunk highlighting**. ([what is code chunk?](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/code-chunk.md))  
+2. **Math typesetting highlighting**     
+delimiters `$...$` and `$$...$$` are currently supported. (copied from [language-latex](https://atom.io/packages/language-latex))    
+
+## If you found an issue
+If you found an issue, then check [language-gfm](https://github.com/atom/language-gfm) first because it might be an upstream issue.     
+
+
