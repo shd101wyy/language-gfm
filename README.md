@@ -3,7 +3,8 @@ This package is just a fork of [language-gfm](https://github.com/atom/language-g
 
 ## Installation  
 * search `language-markdown-enhanced` in package manager and install it.  
-* Disable `language-gfm`
+* disable `language-gfm`
+* restart **atom**
 
 ## Additional Features   
 1. **Code Chunk highlighting**. ([what is code chunk?](https://github.com/shd101wyy/markdown-preview-enhanced/blob/master/docs/code-chunk.md))  
