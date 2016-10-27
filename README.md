@@ -16,6 +16,6 @@ delimiters `$...$` and `$$...$$` are currently supported. (copied from [language
 ## If you found an issue
 If you found an issue, then check [language-gfm](https://github.com/atom/language-gfm) first because it might be an upstream issue.     
 
-## Alternatives  
+## Recommended alternatives  
 [language-markdown](https://atom.io/packages/language-markdown)    
 [language-pfm](https://atom.io/packages/language-pfm)  
