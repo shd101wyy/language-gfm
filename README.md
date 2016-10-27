@@ -1,5 +1,7 @@
 # Language Markdown Enhanced  
-This package is just a fork of [language-gfm](https://github.com/atom/language-gfm) but extended to support some features of [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).
+This package is just a fork of [language-gfm](https://github.com/atom/language-gfm) extended to support some features of [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).  
+
+![Screen Shot 2016-10-26 at 9.25.20 PM](http://i.imgur.com/zXbUg43.png)
 
 ## Installation  
 * search `language-markdown-enhanced` in package manager and install it.  
