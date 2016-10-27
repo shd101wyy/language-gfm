@@ -1,10 +1,10 @@
-# Language Markdown Enhanced  
-This package is just a fork of [language-gfm](https://github.com/atom/language-gfm) extended to support some features of [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).  
+# Language GFM Enhanced  
+This package is just a fork of [language-gfm](https://github.com/atom/language-gfm) extended to support some features of [markdown-preview-enhanced](https://github.com/shd101wyy/markdown-preview-enhanced).   
 
 ![Screen Shot 2016-10-26 at 9.25.20 PM](http://i.imgur.com/zXbUg43.png)
 
 ## Installation  
-* search `language-markdown-enhanced` in package manager and install it.  
+* search `language-gfm-enhanced` in package manager and install it.  
 * disable `language-gfm`
 * restart **atom**
 
@@ -16,4 +16,6 @@ delimiters `$...$` and `$$...$$` are currently supported. (copied from [language
 ## If you found an issue
 If you found an issue, then check [language-gfm](https://github.com/atom/language-gfm) first because it might be an upstream issue.     
 
-
+## Alternatives  
+[language-markdown](https://atom.io/packages/language-markdown)    
+[language-pfm](https://atom.io/packages/language-pfm)  
