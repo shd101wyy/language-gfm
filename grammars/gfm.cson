@@ -650,6 +650,57 @@
     ]
   }
   {
+    'begin': '^\\s*([`~]{3,})\\{?@?\\s*(?i:(mermaid))[\\s\\S]*?\\}?\\s*$'
+    'beginCaptures':
+      '0':
+        'name': 'support.gfm'
+    'end': '^\\s*\\1\\s*$'
+    'endCaptures':
+      '0':
+        'name': 'support.gfm'
+    'name': 'markup.code.mermaid.gfm'
+    'contentName': 'source.embedded.mermaid'
+    'patterns': [
+      {
+        'include': 'source.mermaid'
+      }
+    ]
+  }
+  {
+    'begin': '^\\s*([`~]{3,})\\{?@?\\s*(?i:(dot|viz))[\\s\\S]*?\\}?\\s*$'
+    'beginCaptures':
+      '0':
+        'name': 'support.gfm'
+    'end': '^\\s*\\1\\s*$'
+    'endCaptures':
+      '0':
+        'name': 'support.gfm'
+    'name': 'markup.code.dot.gfm'
+    'contentName': 'source.embedded.dot'
+    'patterns': [
+      {
+        'include': 'source.dot'
+      }
+    ]
+  }
+  {
+    'begin': '^\\s*([`~]{3,})\\{?@?\\s*(?i:(puml|plantuml))[\\s\\S]*?\\}?\\s*$'
+    'beginCaptures':
+      '0':
+        'name': 'support.gfm'
+    'end': '^\\s*\\1\\s*$'
+    'endCaptures':
+      '0':
+        'name': 'support.gfm'
+    'name': 'markup.code.plantuml.gfm'
+    'contentName': 'source.embedded.plantuml'
+    'patterns': [
+      {
+        'include': 'source.plantuml'
+      }
+    ]
+  }
+  {
     'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(adoc|asciidoc|asciidoctor|asc|))[\\s\\S]*?\\}?\\s*$'
     'beginCaptures':
       '0':
