@@ -11,6 +11,9 @@
 ]
 'patterns': [
   {
+    include: '#math-typesetting'
+  }
+  {
     'match': '\\\\.'
     'name': 'constant.character.escape.gfm'
   }
@@ -1301,9 +1304,6 @@
       }
     ]
   }
-  {
-    include: '#math-typesetting'
-  }
 ]
 
 'repository':
@@ -1334,6 +1334,29 @@
           '0':
             'name': 'punctuation.definition.string.begin.tex'
         'end': '\\$'
+        'endCaptures':
+          '0':
+            'name': 'punctuation.definition.string.end.tex'
+        'name': 'string.other.math.tex'
+        'patterns': [
+          {
+            'match': '\\\\\\$'
+            'name': 'constant.character.escape.tex'
+          }
+          {
+            'include': '#math'
+          }
+          {
+            'include': '$self'
+          }
+        ]
+      }
+      {
+        'begin': '^\\s*([`~]{3,})\\s*(?i:(math))[\\s\\S]*?\\s*$'
+        'beginCaptures':
+          '0':
+            'name': 'punctuation.definition.string.begin.tex'
+        'end': '^\\s*\\1\\s*$'
         'endCaptures':
           '0':
             'name': 'punctuation.definition.string.end.tex'
