@@ -1,6 +1,6 @@
 {
   "name": "language-gfm-enhanced",
-  "version": "0.91.0",
+  "version": "0.92.0",
   "description": "A fork of language-gfm to support highlighting for Math and Code Chunks.",
   "repository": "https://github.com/shd101wyy/language-gfm-enhanced",
   "license": "MIT",
