@@ -590,23 +590,6 @@
     ]
   }
   {
-    'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(julia))[\\s\\S]*?\\}?\\s*$'
-    'beginCaptures':
-      '0':
-        'name': 'support.gfm'
-    'end': '^\\s*\\1\\s*$'
-    'endCaptures':
-      '0':
-        'name': 'support.gfm'
-    'name': 'markup.code.julia.gfm'
-    'contentName': 'source.embedded.julia'
-    'patterns': [
-      {
-        'include': 'source.julia'
-      }
-    ]
-  }
-  {
     'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(pycon))[\\s\\S]*?\\}?\\s*$'
     'beginCaptures':
       '0':
@@ -726,7 +709,7 @@
     ]
   }
   {
-    'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(adoc|asciidoc|asciidoctor|asc|))[\\s\\S]*?\\}?\\s*$'
+    'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(adoc|asciidoc|asciidoctor|asc))[\\s\\S]*?\\}?\\s*$'
     'beginCaptures':
       '0':
         'name': 'support.gfm'
@@ -915,6 +898,23 @@
     'patterns': [
       {
         'include': 'source.diff'
+      }
+    ]
+  }
+  {
+    'begin': '^\\s*([`~]{3,})\\{?\\s*(?i:(julia))[\\s\\S]*?\\}?\\s*$'
+    'beginCaptures':
+      '0':
+        'name': 'support.gfm'
+    'end': '^\\s*\\1\\s*$'
+    'endCaptures':
+      '0':
+        'name': 'support.gfm'
+    'name': 'markup.code.julia.gfm'
+    'contentName': 'source.embedded.julia'
+    'patterns': [
+      {
+        'include': 'source.julia'
       }
     ]
   }
